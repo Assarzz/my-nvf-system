@@ -17,7 +17,7 @@
             pkgs = nixpkgs.legacyPackages.x86_64-linux;
             modules = [
               {
-                config.vim = {
+                config = {
                   # Enable custom theming options
                   #theme.enable = true;
 
